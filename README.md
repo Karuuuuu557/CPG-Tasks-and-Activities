@@ -95,4 +95,4 @@ java <ClassName>
 
 ---
 
-*These activities were created for educational purposes as part of a Computer Programming with Graphics (CPG) course.*
+*These activities were created for educational purposes as part of a Computer Programming with GUI (CPG) course.*
