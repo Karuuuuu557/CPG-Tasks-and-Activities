@@ -87,12 +87,36 @@ java <ClassName>
 - **Event Handling** — `ActionListener`, `ItemListener`, `FocusListener`
 - **Form Design** — survey forms, login screens, ordering systems
 
+## 🛒 Point-of-Sale (POS) System
+
+### `POS_UNFINISHED.java` — Final Project
+A **console-based Point-of-Sale ordering system** with user authentication, menu browsing, cart management, discount application, and receipt generation.
+
+| Feature | Details |
+|---------|---------|
+| **Login System** | Register and log in with custom UserID/Password. Pre-configured `ADMIN` account included. |
+| **Menu** | Displays 4 items (Iced Caramel Latte, Classic Americano, Matcha Green Tea Latte, Chocolate Donut) with prices and descriptions. |
+| **Ordering** | Select items by number, specify quantity, and add multiple items to cart. |
+| **Discounts** | PWD (20%), Senior Citizen (20%), and bulk purchase (>₱500 → additional 30%) discounts supported. |
+| **Receipt** | Prints a full order summary with itemized breakdown and final total. |
+| **Logout** | Returns to the login page and allows a different user to log in. |
+
+#### How to Run
+```bash
+cd FINALS_PROJECT
+javac POS_UNFINISHED.java
+java FINALS_PROJECT.POS_UNFINISHED
+```
+
+> **Default Admin Credentials:** UserID = `ADMIN`, Password = `ADMIN:PASSWORD`
+
 ## 📌 Notes
 
 - Pre-compiled `.class` files are provided in the `bin/` folder for convenience, but recompiling from source is recommended.
 - Some programs use `setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)` while others rely on closing via the IDE or task manager.
 - The `ButtonDemo.java` uses the older AWT `Frame` class, while all other programs use Swing's `JFrame`.
+- `POS_UNFINISHED.java` uses a static `Scanner` and console I/O (no GUI) — it is a console application under the `FINALS_PROJECT` package.
 
 ---
 
-*These activities were created for educational purposes as part of a Computer Programming with GUI (CPG) course.*
+*These activities were created for educational purposes as part of a Computer Programming with Graphics (CPG) course.*
